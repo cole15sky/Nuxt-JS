@@ -1,8 +1,15 @@
 <template>
     <div>
-        <h1> About Page </h1>
-        <p> This is a about page.</p>
-
+      <header>
+        <nav>
+            <NuxtLink to="/"> SkyOnNuxt </NuxtLink>
+            <ul>
+      <li> <NuxtLink to="/">Home </NuxtLink></li>
+      <li> <NuxtLink to="/about">About </NuxtLink></li>
+      <li> <NuxtLink to="/products"> Products </NuxtLink></li>
+            </ul>
+        </nav>
+      </header>
     </div>
 </template>
 
